@@ -1,0 +1,34 @@
+/*!
+ * Theme Name: Mohammed Ali Portfolio 2018
+ * Theme URI: https://mohammed-ali.co.uk
+ * Description: Online portfolio for Mohammed Ali
+ * Author: Mohammed Ali
+ * Author URI: https://mohammed-ali.co.uk
+ * Version: 1.0.0
+ * .
+ * This theme has been developed for and is Licensed for use only by Mohammed Ali. This theme may not be used by anyone other than Mohammed Ali.
+ * .
+ *
+*/
+
+/*Core files*/
+// @import "mixins";//Mixins: Ensure there are no conflicts with other files.
+@import "colours";
+@import "type";
+
+
+/*Other*/
+@import "animations";
+@import "buttons";
+@import "site";
+@import "nav";
+@import "header";
+@import "footer";
+@import "homepage";
+@import "about";
+@import "portfolio";
+@import "portfolio-single";
+@import "contact";
+@import "min-768px";
+@import "min-992px";
+@import "min-1200px";

@@ -1,0 +1,9 @@
+main#main-homepage {
+    .buttons {
+        padding:100px 0;
+
+        &:nth-of-type(1n) {
+            margin-right:30px;
+        }
+    }
+}

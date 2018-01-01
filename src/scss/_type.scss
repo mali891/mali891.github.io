@@ -1,0 +1,11 @@
+/*--------------------------------------------------------------
+    Typography Styling
+--------------------------------------------------------------*/
+
+//Load web-fonts.less file
+@import "web-fonts";
+
+p.large {
+    font-size:2rem;
+    color:$white;
+}

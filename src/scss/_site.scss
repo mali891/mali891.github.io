@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+    Site Styling - Mobile and global styling
+--------------------------------------------------------------*/
+
+/*
+ *	Contents
+ *
+ *	Note: use CTRL + F and search for '//*' to find these content headings within the code.
+ *
+ *	1. Elements (Section, Aside, Blockquote, etc.)
+ *	2. Default Lists (Lists ULs, LIs)
+ *	3. Header (Header elements)
+ *	4. Image Styling (If images require borders, etc.)
+ *	5. Content (Body content styling)
+ *	6. Footer (Footer elements)
+ *	7. Tablet Breakpoint (Responsive Tablet)
+ *	8. Desktop Breakpoint (Responsive Desktop)
+ *	9. Large Desktop Breakpoint (Responsive Large Desktop)
+ *
+ */
+
+//** 1. Elements
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    font-size:22px;
+    font-family:'helvetica neue', 'system-ui';
+}
+
+body {
+    transition:all 300ms ease;
+
+    &.scrolled {
+        background:$dark;
+    }
+}
+
+a {
+    color:lightblue;
+    text-decoration:underline;
+    transition:all 300ms ease;
+
+    &:hover {
+
+    }
+}
+
+main {
+    height:auto;
+
+    section {
+        padding:100px;
+    }
+}
+
+
+
+//** 2. Default Lists
+
+
+//** 3. Header
+
+//** 4. Image Styling
+
+
+//** 5. Content
+
+
+//** 6. Footer

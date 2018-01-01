@@ -1,0 +1,57 @@
+$headerWidth:calc(100% - 200px);
+
+//Homepage header
+@keyframes header-middle {
+    50% {
+        width:$headerWidth;
+        height:2px;
+    }
+
+    70% {
+        width:$headerWidth;
+        height:2px;
+    }
+
+    100% {
+        width:$headerWidth;
+        height:calc(100vh - 200px);
+    }
+}
+
+
+//Burger menu
+//https://codemyui.com/simple-hamburger-menu-x-mark-animation/
+
+@keyframes inM{
+    50%{transform:rotate(0deg);}
+    100%{transform:rotate(45deg);}
+}
+
+@keyframes outM{
+    50%{transform:rotate(0deg);}
+    100%{transform:rotate(45deg);}
+}
+
+@keyframes inT{
+    0%{transform:translateY(0px) rotate(0deg);}
+    50%{transform:translateY(9px) rotate(0deg);}
+    100%{transform:translateY(13px) rotate(135deg);}
+}
+
+@keyframes outT{
+    0%{transform:translateY(0px) rotate(0deg);}
+    50%{transform:translateY(9px) rotate(0deg);}
+    100%{transform:translateY(13px) rotate(135deg);}
+}
+
+@keyframes inBtm{
+    0%{transform:translateY(0px) rotate(0deg);}
+    50%{transform:translateY(-9px) rotate(0deg);}
+    100%{transform:translateY(-13px) rotate(135deg);}
+}
+
+@keyframes outBtm{
+    0%{transform:translateY(0px) rotate(0deg);}
+    50%{transform:translateY(-9px) rotate(0deg);}
+    100%{transform:translateY(-13px) rotate(135deg);}
+}
