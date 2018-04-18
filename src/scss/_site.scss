@@ -37,6 +37,30 @@ body {
 
     &.scrolled {
         background:$dark;
+
+        nav#top-nav {
+            #burger-menu {
+                #navTrigger {
+                    i {
+                        background-color:$white;
+                    }
+                }
+            }
+        }
+    }
+
+    &.nav-active {
+        overflow:hidden;
+
+        nav#top-nav {
+            #burger-menu {
+                #navTrigger {
+                    i {
+                        background-color:$white;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -48,6 +72,11 @@ a {
     &:hover {
 
     }
+}
+
+::selection {
+    background:$green;
+    color:$white;
 }
 
 main {

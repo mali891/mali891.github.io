@@ -19,6 +19,10 @@ header {
             animation:header-middle 2500ms ease 1 forwards;
             transform-style:preserve-3d;
 
+            &:hover {
+                box-shadow:0 0 40px rgba(0,0,0,.8);
+            }
+
             hgroup {
                 text-transform:uppercase;
                 padding:20px;

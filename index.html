@@ -12,9 +12,10 @@
         <meta name="author" content="Mohammed Ali">
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#000000">
         <!-- Styles -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,6 +31,27 @@
                 </div>
             </div>
         </nav>
+
+        <nav id="main-nav">
+            <div id="nav-items">
+                <ul>
+                    <a href="#!">
+                        <li class="active"><span class="nav-block">01 &nbsp;Home</span><i class="icon-home"></i></li>
+                    </a>
+                    <a href="#!">
+                        <li><span class="nav-block">02 &nbsp;About me</span><i class="icon-user"></i></li>
+                    </a>
+                    <a href="#!">
+                        <li><span class="nav-block">03 &nbsp;My work</span><i class="icon-pencil"></i></li>
+                    </a>
+                    <a href="#!">
+                        <li><span class="nav-block">04 &nbsp;Contact me</span><i class="icon-phone"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="nav-overlay"></div>
 
         <!-- Start of Header -->
         <header id="header-homepage">
@@ -48,10 +70,10 @@
         <main role="main" id="main-homepage">
             <section id="intro">
                 <p class="large">This is my small part of the internet. I'm humbled you've come to visit. <br/>
-                I specialise in UX &amp; UI, and love getting my hands dirty with dev. Right now I'm a Lead Designer &amp; Developer at an agency in Manchester. Previously I've worked client-side as a UX Designer, and as a Web Designer.</p>
+                I specialise in UX &amp; UI design, and front-end UI development. Right now I'm a Lead Designer &amp; Developer at an agency in Manchester. Previously I've worked client-side as a UX Designer, and as a Web Designer.</p>
                 <div class="buttons">
-                    <button name="button" class="btn btn-primary">Read about me</button>
-                    <button name="button" class="btn btn-secondary">See my work</button>
+                    <button class="btn btn-primary">Read about me</button>
+                    <button class="btn btn-secondary">See my work</button>
                 </div>
             </section>
         </main>

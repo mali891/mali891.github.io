@@ -29,20 +29,21 @@
 		display:block;
 	}
 
-
 	&.btn-primary {
-		border:2px solid #fbc2eb;
+		border:2px solid $green;
 
 		&:hover {
-			background: #fbc2eb;
+			background: $green;
 		}
 	}
 
 	&.btn-secondary {
-		border:2px solid #2bfed2;
+		border:2px solid $purple;
 
 		&:hover {
-			background: #2bfed2;
+			background: $purple;
 		}
 	}
+
+
 }
